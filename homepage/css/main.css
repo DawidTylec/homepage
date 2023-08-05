@@ -1,0 +1,7 @@
+.main__firstHeader {
+    text-align: center;
+    border-top: 2px solid rgba(174, 119, 51, 0.835);
+    border-bottom: 2px solid rgba(174, 119, 51, 0.835);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

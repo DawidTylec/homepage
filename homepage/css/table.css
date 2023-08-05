@@ -1,0 +1,32 @@
+.table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.table__Responsiveness {
+    overflow-x: auto;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    font-size: small;
+}
+
+.table__Row:nth-child(odd) {
+    background-color: #eee;
+}
+
+.table__cell {
+    border: 2px solid;
+    padding: 15px;
+    text-align: center;
+}
+
+.table__topHeader {
+    background-color: #ccc;
+    font-size: large;
+}

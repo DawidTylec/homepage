@@ -1,0 +1,41 @@
+.article {
+    background-color: rgb(244, 226, 204);
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.article__header {
+    background-color: rgba(174, 119, 51, 0.835);
+    text-align: center;
+    margin: 0;
+    border-radius: 20px;
+}
+
+.article__paragraph {
+    margin: 30px 10px 30px 10px;
+    line-height: 1.5;
+}
+
+.article__imageContainer {
+    margin: 0 auto;
+    max-width: 700px;
+    display: grid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.article__image {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.article__authorsList {
+    line-height: 1.5;
+}
+
+.article__interesting {
+    font-weight: bold;
+    color: rgb(172, 12, 7);
+}

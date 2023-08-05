@@ -1,0 +1,36 @@
+.navigation {
+    background-color: rgb(39, 39, 39);
+    color: #eee;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+.navigation__controlls {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navigation__listItem {
+    float: left;
+    padding: 10px 30px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+}
+
+.navigation__link:visited {
+    color: currentColor;
+}
+
+
+.navigation__link:hover {
+    color: rgba(174, 119, 51, 0.835);
+}

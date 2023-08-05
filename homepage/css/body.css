@@ -1,0 +1,38 @@
+.body {
+    background-color: rgb(244, 226, 204);
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.body__header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.body__imageContainerHeader {
+    margin: 0 auto;
+    max-width: 400px;
+    display: grid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.body__image {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.body__imageContainer {
+    margin: 0 auto;
+    max-width: 700px;
+    display: grid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
